@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/CardTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="title" />
+
+        <ImageView
+            android:id="@+id/overflow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:src="@drawable/abc_ic_menu_moreoverflow_normal_holo_light"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/stroke" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel1"
+        android:gravity="center_horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+			android:adjustViewBounds="true"
+            android:baselineAlignBottom="true"
+            android:padding="5dp"/>
+        
+    <coms.whodunnit.FlowTextView
+        android:layout_below="@id/imageView1"
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            
+    <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+			android:adjustViewBounds="true"
+            android:baselineAlignBottom="true"
+            android:padding="3dp"
+            android:visibility="gone"
+            android:src="@drawable/url1"/>
+            
+              
+</coms.whodunnit.FlowTextView>
+
+    <ImageView
+            android:id="@+id/imageViewbottom"
+            android:layout_below="@id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+			android:adjustViewBounds="true"
+            android:baselineAlignBottom="true"
+            android:padding="5dp"/>
+        
+    <coms.whodunnit.FlowTextView
+        android:layout_below="@id/imageViewbottom"
+            android:id="@+id/description2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+               
+</coms.whodunnit.FlowTextView>
+    
+    
+</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView1"
+            android:layout_centerHorizontal="true" >
+
+            <LinearLayout
+                android:id="@+id/mygallery1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rel1"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        layout="@layout/scrollingcontent" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel1"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize2"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fff"
+            android:text="«select\\a\\character»\n«to\\star\\playing»"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:spinnerMode="dialog"
+            android:popupBackground="#0D0B10" />
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/btnStyleBlackpearl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinner1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:onClick="gone"
+            android:textSize="@dimen/textsmall"
+            android:text="Confirm selection" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lay1">
+        <coms.myfirstapp.cardsui.CardUI
+		        android:id="@+id/cardsview"
+		        android:layout_below="@id/lay1"
+  		        android:layout_margin="10dp"
+  		        android:visibility="gone"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" />
+		
+  </FrameLayout>     
+    
+</RelativeLayout>

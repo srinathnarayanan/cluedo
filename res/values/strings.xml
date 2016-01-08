@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WHODUNNIT? Cluedo-The board game</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_create_host">Create Host</string>
+    <string name="title_activity_join_host">Join A Host</string>
+    <string name="title_activity_enter_name">Enter Name</string>
+    <string name="title_activity_game_play">Game Play</string>
+    <string name="title_section1">YOUR CARDS</string>
+    <string name="title_section2">GAME BOARD</string>
+    <string name="title_section3">NOTES</string>
+    <string name="color_stripe">Color Stripe</string>
+    <string name="title_activity_main">CardsUI</string>
+    <string name="title">Title</string>
+    <string name="desc">Description</string>
+    <string name="overflow">Menu Overflow</string>
+
+    <string-array name="array_name1">
+        <item>plum</item>
+        <item>peacock</item>
+        <item>brunette</item>
+        <item>white</item>
+        <item>green</item>
+        <item>mustard</item>
+        <item>scarelt</item>
+        <item>peach</item>
+        <item>rose</item>
+        <item>gray</item>
+    </string-array>
+    <string-array name="array_name2">
+        <item>leadpipe</item>
+        <item>knife</item>
+        <item>revolver</item>
+        <item>poison</item>
+        <item>candlestick</item>
+        <item>syringe</item>
+        <item>wrench</item>
+        <item>rope</item>
+        <item>axe</item>
+        <item>bomb</item>
+    </string-array>
+
+    <string name="title_activity_game_over">Game Over</string>
+    <string name="title_activity_start">CLUE</string>
+
+</resources>

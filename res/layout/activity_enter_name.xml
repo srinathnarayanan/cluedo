@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/entername"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EnterName"
+    android:background="@drawable/backgroun">
+
+    <!-- Contains the "content" view and its children. -->
+    <include layout="@layout/content"
+        android:layout_gravity="center" />
+    <!-- The "loading indicator" view. This view overlaps with
+         the content, so the visibility of these two views
+         should be mutually exclusive. -->
+    
+    <ProgressBar android:id="@+id/loading_spinner"
+        style="?android:progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/textViewNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20sp"
+        android:textSize="@dimen/textsize2"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/loading_spinner"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20sp"
+        android:textSize="@dimen/textsize2"
+        android:textColor="#FFD700"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_above="@id/textViewNew"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20sp"
+        android:textSize="@dimen/textsize2"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_above="@id/textView3"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    
+    
+    
+</RelativeLayout>

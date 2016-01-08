@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<RelativeLayout 
+    android:id="@+id/relleft"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toLeftOf="@+id/buttonchoice">
+    
+    <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="àselectûcharacterá"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:visibility="visible"
+            android:textColor="#fff"
+            android:textSize="@dimen/textmedium" />
+
+    <Spinner
+            android:id="@+id/spinnername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:entries="@array/array_name1"
+            android:visibility="visible"
+            android:spinnerMode="dialog" 
+            android:popupBackground="#0D0B10"/>
+    </RelativeLayout>
+        
+<RelativeLayout 
+    android:layout_toRightOf="@id/buttonchoice"
+    android:id="@+id/relright"
+    android:layout_width="wrap_content"
+    android:layout_alignBottom="@id/relleft"
+    android:layout_height="wrap_content" >
+        
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="àselectûweaponá"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:visibility="visible" 
+            android:textColor="#fff"
+            android:textSize="@dimen/textmedium" />
+        
+        <Spinner
+            android:id="@+id/spinnerweapon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView4"
+            android:entries="@array/array_name2"
+            android:visibility="visible"
+            android:spinnerMode="dialog"
+            android:popupBackground="#0D0B10" />
+
+        </RelativeLayout>
+
+<Button
+    android:id="@+id/buttonchoice"
+    style="@style/btnStyleBlackpearl"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/relleft"
+    android:layout_centerHorizontal="true"
+    android:text="OK"
+    android:textSize="@dimen/textsmall"
+    android:visibility="visible" />
+       
+</RelativeLayout>

@@ -1,0 +1,2193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+<HorizontalScrollView 
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp">
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent">
+
+<TableLayout 
+    android:id="@+id/tabla_cuerpo" 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent">
+
+<TableRow 
+    android:id="@+id/tableRow1" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+<TextView 
+    android:textColor="#fff" 
+    android:textStyle="bold" 
+    android:gravity="center_horizontal" 
+    android:id="@+id/textView10" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textSize="@dimen/textsize2"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="«clueúnotes»"/>
+</TableRow>
+
+<TableRow android:id="@+id/tableRow2" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo"
+        android:gravity="center_horizontal" 
+        android:text="^people*"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView22" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" 
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="1"/>
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView23" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"  
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="2"/>
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView24"
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:textSize="@dimen/textsize" 
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="3"/>
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView25" 
+    android:layout_weight="0.3"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" 
+    android:textSize="@dimen/textsize" 
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="4"/>
+
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView26"
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" 
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="5"/>
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView27" 
+    android:layout_weight="0.3"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" 
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="6"/>
+
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView28" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:textSize="@dimen/textsize"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" 
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="7"/>
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView29" 
+    android:layout_weight="0.3"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" 
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="8"/>
+
+</TableRow>
+<TableRow android:id="@+id/tableRow3" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="PLUM"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout32"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout33"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout34"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout35"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout36"
+    android:background="@drawable/celda_cuerpo3"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:background="@drawable/celda_cuerpo3"
+    
+    android:layout_height="match_parent"
+    android:id="@+id/layout37"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:background="@drawable/celda_cuerpo3"
+    android:layout_height="match_parent"
+    android:id="@+id/layout38"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:background="@drawable/celda_cuerpo3"
+    android:layout_height="match_parent"
+    android:id="@+id/layout39"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow4" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="MUSTARD"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout42"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout43"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout44"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout45"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout46"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout47"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout48"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout49"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow5" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="WHITE"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout52"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout53"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout54"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout55"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout56"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout57"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout58"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout59"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow6" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="PEACH"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout62"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout63"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout64"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout65"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout66"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout67"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout68"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout69"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow7" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="ROSE"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout72"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout73"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout74"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout75"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout76"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout77"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout78"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout79"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow8" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="SCARLET"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout82"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout83"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout84"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout85"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout86"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout87"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout88"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout89"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow9" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="PEACOCK"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout92"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout93"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout94"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout95"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout96"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout97"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout98"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout99"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow10" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="GREY"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout102"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout103"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout104"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout105"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout106"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout107"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout108"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout109"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow11" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="BROWN"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout112"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout113"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout114"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout115"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout116"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout117"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout118"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout119"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow120" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView121"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="GREEN"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout122"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout123"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout124"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout125"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout126"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout127"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout128"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout129"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow13" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp">
+
+    <TextView
+        android:id="@+id/textView131"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo"
+        android:gravity="center_horizontal" 
+        android:text="^weapons*"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView132" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"  
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="1"/>
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView133" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" 
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="2"/>
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView134" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:textSize="@dimen/textsize" 
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="3"/>
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView135" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" 
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="4"/>
+
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView136" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:textSize="@dimen/textsize"
+    android:paddingRight="5dp" 
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="5"/>
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView137" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"  
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="6"/>
+
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView138" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="7"/>
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView139" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"  
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="8"/>
+
+</TableRow>
+<TableRow android:id="@+id/tableRow14" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView141"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="POISON"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout142"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout143"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout144"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout145"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout146"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout147"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout148"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:background="@drawable/celda_cuerpo3"
+    android:id="@+id/layout149"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow15" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView151"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="CANDLESTICK"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout152"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout153"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout154"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout155"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout156"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout157"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout158"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout159"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow16" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView161"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="REVOLVER"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout162"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout163"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout164"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout165"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout166"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout167"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout168"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout169"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow17" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView171"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="KNIFE"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout172"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout173"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout174"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout175"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout176"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout177"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout178"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout179"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow18" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView181"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="ROPE"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout182"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout183"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout184"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout185"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout186"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout187"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout188"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout189"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow19" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView191"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="SYRINGE"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout192"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout193"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout194"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout195"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout196"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout197"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout198"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout199"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow20" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView201"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="LEADPIPE"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout202"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout203"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout204"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout205"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout206"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout207"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout208"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout209"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow21" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView211"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="WRENCH"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout212"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout213"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout214"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout215"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout216"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout217"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout218"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout219"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow22" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView221"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="AXE"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout222"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout223"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout224"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout225"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout226"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout227"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout228"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout229"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow230" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView231"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="BOMB"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout232"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout233"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout234"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout235"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout236"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout237"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout238"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout239"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow24" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/textView241"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo"
+        android:gravity="center_horizontal" 
+        android:text="^rooms*"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView242" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" 
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="1"/>
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView243" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" 
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="2"/>
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView244" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" 
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="3"/>
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView245" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" 
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="4"/>
+
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView246" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" 
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="5"/>
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView247" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:textSize="@dimen/textsize"
+    android:paddingRight="5dp"  
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="6"/>
+
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView248" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" 
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="7"/>
+<TextView 
+    android:background="@drawable/celda_cuerpo" 
+    android:id="@+id/textView249" 
+    android:layout_weight="0.3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+    android:gravity="center_horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:textSize="@dimen/textsize"
+    android:textAppearance="?android:attr/textAppearanceMedium" 
+    android:text="8"/>
+
+</TableRow>
+<TableRow android:id="@+id/tableRow25" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView251"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="  BILLIARDS ROOM  "
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout252"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout253"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout254"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout255"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout256"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout257"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout258"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout259"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow26" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView261"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="BALLROOM"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout262"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout263"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout264"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout265"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout266"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout267"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout268"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout269"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow27" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView271"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="LIBRARY"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout272"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout273"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout274"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout275"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout276"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout277"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout278"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout279"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow28" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView281"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="STUDY"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout282"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout283"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout284"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout285"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout286"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout287"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout288"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout289"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow29" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView291"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="CONSERVATORY"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout292"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout293"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout294"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout295"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout296"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout297"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout298"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout299"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow30" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView301"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="KITCHEN"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout302"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout303"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout304"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout305"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout306"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout307"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout308"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout309"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow31" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView311"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="DINNING ROOM"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout312"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout313"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout314"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout315"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout316"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout317"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout318"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout319"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow32" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView321"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="HALL"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout322"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout323"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout324"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout325"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout326"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout327"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout328"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout329"/>
+
+</TableRow>
+
+<TableRow android:id="@+id/tableRow33" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView331"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:background="@drawable/celda_cuerpo2"
+        android:gravity="center_horizontal" 
+        android:text="LOUNGE"
+        android:textSize="@dimen/textsize"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout332"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout333"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout334"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout335"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout336"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout337"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout338"/>
+<LinearLayout  
+    android:orientation="vertical" 
+    android:layout_width="wrap_content" 
+    android:layout_height="match_parent"
+    android:id="@+id/layout339"/>
+
+</TableRow>
+
+</TableLayout>
+</LinearLayout>
+</ScrollView>
+</HorizontalScrollView>
+</LinearLayout>
